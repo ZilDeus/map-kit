@@ -75,12 +75,12 @@
     <Nav isUser={false} />
   </form>
   <div
-    class="flex flex-row bg-green-400 text-base absolute right-0 my-1 items-center p-3 rounded-lg z-10"
+    class="flex flex-row bg-blue-700 text-base absolute right-0 top-12 my-1 items-center p-3 rounded-lg z-10"
   >
     <label for="device-id" class="text-white">device ID :</label>
     <input
       name="device-id"
-      class="bg-transparent border border-white text-white focus:outline-none mx-1 p-1"
+      class="bg-transparent border border-white text-white focus:outline-none mx-1 p-1 w-20"
       bind:value={deviceId}
     />
   </div>
@@ -91,7 +91,7 @@
     <div
       class="flex flex-row text-base absolute bottom-0 my-1 items-center p-3 rounded-lg h-10 justify-center w-full z-10"
     >
-      <button class="bg-green-500 rounded-lg p-2" type="submit"
+      <button class="bg-blue-700 rounded-lg p-2" type="submit"
         >set location</button
       >
     </div>
