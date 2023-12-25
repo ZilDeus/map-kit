@@ -17,7 +17,7 @@
     <slot />
   </div>
 {:else}
-  <div class="flex flex-col border-r border-r-black bg-gray-200 w-5">
+  <div class="flex flex-col border-r border-r-black bg-gray-200 w-8">
     <div class="flex h-10 bg-gray-400 items-center justify-end">
       <button
         on:click={() => {

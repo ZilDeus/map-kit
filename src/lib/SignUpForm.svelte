@@ -38,7 +38,7 @@
   {#if confirmPassword !== "" && confirmPassword !== password}
     <p class="text-red-600 text-sm font-semibold">Password not match</p>
   {/if}
-  <div class="flex flex-row justify-around">
+  <div class="flex flex-row justify-around md:flex-col">
     <Button type="submit" disabled={validatePassword(password, confirmPassword)}
       >Sign up</Button
     >
